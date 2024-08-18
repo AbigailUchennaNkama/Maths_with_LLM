@@ -116,5 +116,5 @@ Then call the function prepare_prompts_and_get_answers(). This function takes in
 - number of workers (e.g, 6),
 - a dataframe with keys, problem_id (question id) and problem_text (question)
 - a prefered model (e.g, "gpt-4o-mini")
-
+and returns a dataframe containing answers to questions from the input data.
 """
